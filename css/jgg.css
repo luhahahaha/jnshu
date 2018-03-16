@@ -1,0 +1,14 @@
+.main {
+    width: 100%;
+
+}
+
+.a {
+    background-color: #ffa600;
+    border-radius: 10%;
+    float: left;
+    width: 30%;
+    margin: calc(10%/6);
+    padding-bottom: 30%;
+
+}
