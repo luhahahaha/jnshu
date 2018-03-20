@@ -27,7 +27,7 @@
             
         }
         main div {
-            wdith: 100%;
+            width: 100%;
             margin: 2rem 0;
             background-color: #fff;
         }
@@ -45,7 +45,7 @@
         input {
             border: 0;
             outline: none;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             vertical-align: middle;
             padding: 1rem;
             background-color: #fff;
@@ -60,10 +60,10 @@
             font-size: 1.8rem;
             padding: 1rem 1rem;
         }
-        footer {
+        a {
             color: #5acccc;
             float: right;
-            padding: 1rem 1rem;
+            padding: 0 1rem;
         }
     </style>
 </head>
@@ -74,18 +74,20 @@
         <div class="flex-item">关闭</div>
     </header>
     <main>
-        <div>
-            <img class="phone" src="images/task4_phone.png" alt="">
-            <img class="partition" src="images/task4_1.png" alt="">
-            <input type="telephone" placeholder="请输入手机号">
-        </div>        
-        <div>
-            <img class="locked" src="images/task4_locked.png" alt="">
-            <img class="partition" src="images/task4_1.png" alt="">
-            <input type="password" name="" id="" placeholder="请输入密码">
-        </div> 
-        <button type="submit">登  录</button>
-        <footer><a href="#">忘记密码</a></footer>
+        <form action="#">
+            <div>
+                <img class="phone" src="images/task4_phone.png" alt="">
+                <img class="partition" src="images/task4_1.png" alt="">
+                <input type="tel" placeholder="请输入手机号">
+            </div>        
+            <div>
+                <img class="locked" src="images/task4_locked.png" alt="">
+                <img class="partition" src="images/task4_1.png" alt="">
+                <input type="password" placeholder="请输入密码">
+            </div> 
+            <button type="submit">登  录</button>
+        </form> 
+        <div><a href="#">忘记密码</a></div>
     </main>
     
 </body>
