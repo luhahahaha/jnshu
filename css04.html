@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css04登录</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 62.5%;
+            background-color: #eef0f4;
+        }
+        .flex-content {
+            width: 100%;
+            background-color: #5acccc;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+        .flex-item {
+            font-size: 1.6rem;
+            background-color: #5acccc;
+            color: #fff;
+            padding: 1rem 1rem;
+            
+        }
+        main div {
+            wdith: 100%;
+            margin: 2rem 0;
+            background-color: #fff;
+        }
+        img {
+            vertical-align: middle;
+            background-color: #fff;
+        }
+        .phone,
+        .locked {
+            margin: 1rem 2rem;
+        }
+        .partion {
+            margin: 1rem 0;
+        }
+        input {
+            border: 0;
+            outline: none;
+            font-size: 1.8rem;
+            vertical-align: middle;
+            padding: 1rem;
+            background-color: #fff;
+        }
+
+        button {
+            width: 100%;
+            border: 0;
+            outline: none;
+            background-color: #5acccc;
+            color: #fff;
+            font-size: 1.8rem;
+            padding: 1rem 1rem;
+        }
+        footer {
+            color: #5acccc;
+            float: right;
+            padding: 1rem 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="flex-content">
+        <div class="flex-item">注册</div>
+        <div class="flex-item">登录</div>
+        <div class="flex-item">关闭</div>
+    </header>
+    <main>
+        <div>
+            <img class="phone" src="images/task4_phone.png" alt="">
+            <img class="partition" src="images/task4_1.png" alt="">
+            <input type="telephone" placeholder="请输入手机号">
+        </div>        
+        <div>
+            <img class="locked" src="images/task4_locked.png" alt="">
+            <img class="partition" src="images/task4_1.png" alt="">
+            <input type="password" name="" id="" placeholder="请输入密码">
+        </div> 
+        <button type="submit">登  录</button>
+        <footer><a href="#">忘记密码</a></footer>
+    </main>
+    
+</body>
+</html>
