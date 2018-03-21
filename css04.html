@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>css04登录</title>
-    
+
     <style>
         * {
+
             margin: 0;
             padding: 0;
             font-size: 62.5%;
             background-color: #eef0f4;
         }
+
         .flex-content {
             width: 100%;
-            background-color: #5acccc;
+            background-color: #5ac0ce;
             display: inline-flex;
             justify-content: space-between;
         }
+
         .flex-item {
             font-size: 1.6rem;
-            background-color: #5acccc;
+            background-color: #5ac0ce;
             color: #fff;
             padding: 1rem 1rem;
-            
+
         }
+
         main div {
             width: 100%;
             margin: 2rem 0;
             background-color: #fff;
         }
+
         img {
             vertical-align: middle;
             background-color: #fff;
         }
+
         .phone,
         .locked {
             margin: 1rem 2rem;
         }
+
         .partion {
             margin: 1rem 0;
         }
+
         input {
             border: 0;
             border-left: 0.1rem solid #aaa;
@@ -51,43 +60,61 @@
             padding: 1rem;
             background-color: #fff;
         }
-        
+
         button {
             width: 100%;
             border: 0;
             outline: none;
-            background-color: #5acccc;
+            background-color: #5ac0ce;
             color: #fff;
             font-size: 1.8rem;
             padding: 1rem 1rem;
+            cursor: pointer;
         }
+
         a {
-            color: #5acccc;
+            color: #5ac0ce;
             float: right;
             padding: 0 1rem;
         }
+
+        header a {
+            background-color: #5ac0ce;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.6rem;
+
+        }
     </style>
 </head>
+
 <body>
     <header class="flex-content">
-        <div class="flex-item">注册</div>
+        <div class="flex-item">
+            <a href="">注册</a>
+        </div>
         <div class="flex-item">登录</div>
-        <div class="flex-item">关闭</div>
+        <div class="flex-item">
+            <a href="">关闭</a>
+        </div>
     </header>
     <main>
         <form action="#">
             <div>
                 <img class="phone" src="images/task4_phone.png" alt="">
                 <input type="tel" placeholder="请输入手机号">
-            </div>        
+            </div>
             <div>
                 <img class="locked" src="images/task4_locked.png" alt="">
                 <input type="password" placeholder="请输入密码">
-            </div> 
-            <button type="submit">登  录</button>
-        </form> 
-        <div><a href="#">忘记密码</a></div>
+            </div>
+            <button type="submit">登 录</button>
+        </form>
+        <div>
+            <a href="" target="_blank">忘记密码</a>
+        </div>
     </main>
-    
+
 </body>
+
 </html>
