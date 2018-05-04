@@ -77,3 +77,77 @@ a {
     font-size: 1.4rem;
     vertical-align: middle;
 }
+.skill {
+    margin: 2rem;
+    padding-left: .5rem;
+    border-left: .5rem solid #59c0ce;
+    font-size: 1.6rem;
+}
+
+ul {
+    border-top: .1rem solid #c5c5c8;
+    margin-bottom: 3rem;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem 1rem;
+    margin: 1rem; 
+    border-bottom: .1rem solid #c5c5c8;
+}
+ul li div {
+    font-size: 1.6rem;
+}
+.star{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0 .2rem;
+    vertical-align: middle;
+}
+.request div{
+    padding-left: .5rem;
+    line-height: 1.6rem;
+
+}
+.ps1,.ps2 {
+    color: #c5c5c8;
+    padding: 0 1rem;
+    border-right: .1rem solid #c5c5c8;
+}
+.ps3,.ps4,.ps5 {
+    padding-left: 1rem;
+}
+.ps4{
+    color: #e76f6e;
+}
+.ps2 {
+    white-space: nowrap;    
+}
+footer {
+    
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 3rem;
+}
+.message {
+    font-size: 1.6rem;
+    border: .2rem solid rgb(104,205,213) ;
+    border-radius: 10px;
+    color: rgb(104,205,213);
+    background: white;
+    width: 45vw;
+    height: 3rem; 
+   
+}
+.tel-contact {
+    font-size: 1.6rem;
+    background: rgb(104,205,213);
+    border-radius: 10px;
+    border:none;
+    color: white;
+    width: 46vw;
+    height: 3rem;
+}
