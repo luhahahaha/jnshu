@@ -39,7 +39,7 @@ a {
 .info {
     background: url(../images/task5-1_bg.png);
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	height: 20rem;
 	width: 100%;
     margin-top: 4rem;
